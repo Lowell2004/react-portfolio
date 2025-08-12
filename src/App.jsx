@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactSection from "./components/Contact";
@@ -10,7 +9,8 @@ function App() {
     <div>
       <main>
         <NavigationBar />
-        
+        <h1>John Lowell Prado</h1>
+        <p>A Computer Science Student in De La Salle Lipa</p>
         <div className="project-cards-row">
           <ProjectCard />
           <ProjectCard />
