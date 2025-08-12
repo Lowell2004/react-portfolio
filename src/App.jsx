@@ -5,6 +5,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container, Form } from "react-bootstrap";
 import ContactSection from "./components/Contact";
+import ProjectCard from "./components/Card";
 
 function App() {
   return (
@@ -23,12 +24,14 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    
 
+      <div className="project-cards-row">
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </div>
 
-        <ContactSection />
-            
-     
+      <ContactSection />
     </div>
   );
 }
