@@ -1,24 +1,72 @@
+
 /* Add flex row for project cards */
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+
 .project-cards-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   margin: 2rem 0;
 }
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+/* Card rainbow states */
+.project-card-red {
+  background-color: #ff4b4b !important;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
 }
+.project-card-orange {
+  background-color: #ff9900 !important;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card-yellow {
+  background-color: #ffe600 !important;
+  color: #333;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card-green {
+  background-color: #4bff4b !important;
+  color: #333;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card-blue {
+  background-color: #4b7bff !important;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card-indigo {
+  background-color: #6f42c1 !important;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+.project-card-violet {
+  background-color: #b266ff !important;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 .logo {
   height: 6em;

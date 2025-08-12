@@ -42,7 +42,6 @@ const ContactSection = () => {
                 placeholder="Write your message here..." 
                 rows={5} 
                 style={{ resize: 'vertical' }} 
-                required 
               />
             </Form.Group>
             

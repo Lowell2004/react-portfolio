@@ -1,4 +1,5 @@
 import "./App.css";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactSection from "./components/Contact";
 import ProjectCard from "./components/Card";
@@ -17,7 +18,6 @@ function App() {
           <ProjectCard />
         </div>
       </main>
-
       <ContactSection />
     </div>
   );

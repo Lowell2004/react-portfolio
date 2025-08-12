@@ -4,7 +4,7 @@ import { Navbar, Nav, Container, Form } from "react-bootstrap";
       return (
         <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">My Brand</Navbar.Brand>
+            <Navbar.Brand href="#home">John Lowell Codes!</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
